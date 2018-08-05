@@ -1,0 +1,10 @@
+<?php
+
+namespace adapter_pattern\Inheritance;
+
+interface PrintInterface
+{
+    public function printWeak();
+
+    public function printStrong();
+}
