@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d68c6f6-bf4f-45f2-bf67-08d19b0399bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/Main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/Singleton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/Practice5_1/Main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton/Practice5_1/TicketMaker.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton/Singleton.php" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/Singleton.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Singleton.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Singleton/Singleton.php">
+      <file leaf-file-name="TicketMaker.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Singleton/Practice5_1/TicketMaker.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="120">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Singleton/Main.php">
+        <entry file="file://$PROJECT_DIR$/Singleton/Practice5_1/Main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -65,8 +65,11 @@
         <option value="$PROJECT_DIR$/adapter_pattern/VersionUpAndCompatible/outputInterface.php" />
         <option value="$PROJECT_DIR$/adapter_pattern/VersionUpAndCompatible/Adapter.php" />
         <option value="$PROJECT_DIR$/adapter_pattern/VersionUpAndCompatible/Main.php" />
-        <option value="$PROJECT_DIR$/Singleton/Singleton.php" />
         <option value="$PROJECT_DIR$/Singleton/Main.php" />
+        <option value="$PROJECT_DIR$/Singleton/Practice5.1/TicketMaker.php" />
+        <option value="$PROJECT_DIR$/Singleton/Practice5_1/Main.php" />
+        <option value="$PROJECT_DIR$/Singleton/Singleton.php" />
+        <option value="$PROJECT_DIR$/Singleton/Practice5_1/TicketMaker.php" />
       </list>
     </option>
   </component>
@@ -82,7 +85,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="545" />
     <option name="y" value="57" />
     <option name="width" value="967" />
@@ -113,6 +116,12 @@
               <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="Singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice5_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,15 +164,15 @@
       <option name="presentableId" value="Default" />
       <updated>1533431358001</updated>
       <workItem from="1533431361281" duration="9607000" />
-      <workItem from="1534339580357" duration="1730000" />
+      <workItem from="1534339580357" duration="3030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11337000" />
+    <option name="totallyTimeSpent" value="12637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="545" y="57" width="967" height="776" extended-state="0" />
+    <frame x="0" y="0" width="1600" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -172,7 +181,7 @@
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24922441" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.150625" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
@@ -322,17 +331,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Singleton/Singleton.php">
+    <entry file="file://$PROJECT_DIR$/Singleton/Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Singleton/Main.php">
+    <entry file="file://$PROJECT_DIR$/Singleton/Singleton.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Singleton/Practice5_1/TicketMaker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Singleton/Practice5_1/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
