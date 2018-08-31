@@ -8,9 +8,7 @@ class Singleton
     // なのでJavaでできるように$sigletonへ自分自身をNewしたものは入れることができない。
     private static $singleton;
 
-    // Javaでは中のメソッドを呼ぶときに初回にコンストラクタが呼ばれるようであるが、PHPの場合はStaticメソッドを呼ぶときにコンストラクタは呼ばれない？　のでこのブロックは無駄？
-    // => と思ったが、コンストラクタはPrivateで定義しているからこそインスタンス化が外部からできないようになるのでSingletonになる。これを消してしまうとどこからでもNewできてしまう。
-    // また、コンストラクタの処理も、$singletonにまだ入っていなければ初回実行されるので表示されるはず。
+    // Private であることが重要
     private function __construct()
     {
         print("インスタンスを作成しました" ."\n");
@@ -19,10 +17,10 @@ class Singleton
     public static function getSingleton(): Singleton
     {
         // プロパティにデフォルトで入れられない代わりに、ここで入っていなければ入れる。
-        if(!isset(Singleton::$singleton)) {
-            Singleton::$singleton = new Singleton();
+        if(!isset(self::$singleton)) {
+            self::$singleton = new self();
         }
-        return Singleton::$singleton;
+        return self::$singleton;
     }
 }
 

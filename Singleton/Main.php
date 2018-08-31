@@ -4,6 +4,8 @@ namespace Design_pattern\Singleton;
 require_once 'Singleton.php';
 
 echo("start" . "\n");
+
+// インスタンスを作成しました、が一回だけ表示されればOK
 $obj1 = Singleton::getSingleton();
 $obj2 = Singleton::getSingleton();
 
