@@ -11,16 +11,16 @@ class TicketMaker
     {
     }
 
-    public static function getInstance(): TicketMaker
+    public static function getInstance(): self
     {
-        if(!isset(TicketMaker::$instance)){
-            TicketMaker::$instance = new TicketMaker();
+        if(!isset(self::$instance)){
+            self::$instance = new self();
         }
-        return TicketMaker::$instance;
+        return self::$instance;
     }
 
     public function getNextTicketNumber()
     {
-        return TicketMaker::$ticket++;
+        return self::$ticket++;
     }
 }
