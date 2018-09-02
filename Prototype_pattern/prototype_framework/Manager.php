@@ -17,4 +17,11 @@ class Manager
         return $p->createClone();
     }
 
+    // 登録とCloneを一緒にやってしまうメソッドだったらもっと使いやすくなったりしない？ 配列に保存しておくのは煩雑では？
+    public function tempCreateClone(ProductInterface $proto)
+    {
+        return $proto;
+    }
+
+
 }
