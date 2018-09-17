@@ -4,5 +4,5 @@
 interface ProductInterface
 {
     public function use(String $s);
-    public function createC lone(): ProductInterface;
+    public function createClone(): ProductInterface;
 }
