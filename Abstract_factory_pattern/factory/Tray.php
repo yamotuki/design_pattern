@@ -13,6 +13,6 @@ abstract class Tray extends Item
 
     public function add(Item $item)
     {
-        $tray[] = $item;
+        $this->tray[] = $item;
     }
 }

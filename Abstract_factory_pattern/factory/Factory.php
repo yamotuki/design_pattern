@@ -6,9 +6,14 @@ require_once "Page.php";
 
 abstract class Factory
 {
-    public static function getFactory(string $classname): Factory
+    public static function getFactory(string $fileName): Factory
     {
-        return new $classname();
+
+        // $ php Main.php "listfactory/ListFactory.php こんな感じで読み込まれる想定
+        require_once($fileName);
+        $className = basename($fileName, ".php");
+
+        return new $className();
     }
 
     public abstract function createLink(string $caption, string $url): Link;
