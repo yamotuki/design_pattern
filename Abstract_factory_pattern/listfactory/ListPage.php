@@ -10,6 +10,7 @@ class ListPage extends Page
 
     public function makeHTML(): string
     {
+        // TablePageの方で書いたように、単なる文字列連結でもOK　
         $buffer = [];
 
         $buffer[] = "<html><head><title>" . $this->title . "</title></head> \n";
@@ -19,10 +20,6 @@ class ListPage extends Page
         $buffer[] = "<ul> \n";
 
         foreach ($this->content as $item) {
-/*            if (!$item instanceof Item) {
-                return;
-            }*/
-
             $buffer[] = $item->makeHTML();
         }
 
