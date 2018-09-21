@@ -16,12 +16,6 @@ class ListTray extends Tray
         $buffer[] = "<ul> \n";
 
         foreach ($this->tray as $item) {
-
-/*            // PHPStormに型を教えるためだけのもの。なくても動く。多分。ありえないものは入ってくる可能性は？
-            if (!$item instanceof Tray) {
-                return;
-            }*/
-
             $buffer[] = $item->makeHTML();
         }
 
