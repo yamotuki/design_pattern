@@ -9,6 +9,6 @@ for ($i = 0; $i <= 10; $i++) {
 
 $obj3 = TicketMaker::getInstance();
 $obj4 = TicketMaker::getInstance();
-if ($obj3 == $obj4) {
+if ($obj3 === $obj4) {
     print "同じ" ."\n";
 }

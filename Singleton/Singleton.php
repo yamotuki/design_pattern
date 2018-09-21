@@ -22,5 +22,8 @@ class Singleton
         }
         return self::$singleton;
     }
+
+
+
 }
 

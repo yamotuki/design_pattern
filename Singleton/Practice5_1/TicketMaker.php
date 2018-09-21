@@ -13,7 +13,7 @@ class TicketMaker
 
     public static function getInstance(): self
     {
-        if(!isset(self::$instance)){
+        if(!isset(static::$instance)){
             self::$instance = new self();
         }
         return self::$instance;

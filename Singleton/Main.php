@@ -9,7 +9,8 @@ echo("start" . "\n");
 $obj1 = Singleton::getSingleton();
 $obj2 = Singleton::getSingleton();
 
-if ($obj1 == $obj2) {
+// == ではなくて === で比較すること（中身が一致、ではなくて、）
+if ($obj1 === $obj2) {
     echo('同じ' . "\n");
 } else {
     echo('違う' . "\n");
