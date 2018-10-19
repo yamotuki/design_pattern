@@ -11,7 +11,7 @@ try {
 
     $binDir = new DirectoryEntry("bin");
     $tmpDir = new DirectoryEntry("tmp");
-    $usrDir =new DirectoryEntry("usr");
+    $usrDir = new DirectoryEntry("usr");
 
     $rootDir->add($binDir);
     $rootDir->add($tmpDir);
@@ -21,7 +21,6 @@ try {
     $binDir->add(new FileEntry("latex", 20000));
 
     $rootDir->printList();
-
 
 
     echo("" . "\n");
@@ -39,9 +38,13 @@ try {
     $suzuki->add(new FileEntry("Composite.php", 100));
     $arai->add(new FileEntry("memo.txt", 200));
     $tasai->add(new FileEntry("game.doc", 300));
-    $tasai->add(new FileEntry("junk.txt", 400));
+
+    $file = new FileEntry("junk.txt", 400);
+    $tasai->add($file);
+
 
     $rootDir->printList();
+    echo $file->getFullPath() . "\n";
 
 } catch (FileTreatmentException $e) {
     echo $e;

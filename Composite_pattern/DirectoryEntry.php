@@ -29,6 +29,7 @@ class DirectoryEntry extends Entry
 
     public function add(Entry $entry): void
     {
+        $entry->addParent($this);
         $this->directory[] = $entry;
     }
 
