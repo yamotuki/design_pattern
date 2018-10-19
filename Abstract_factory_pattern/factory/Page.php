@@ -23,7 +23,7 @@ abstract class Page
     {
         $filename = $this->title . '.html';
         file_put_contents($filename, $this->makeHTML());
-        var_dump($filename . 'を作成しました');
+        echo($filename . 'を作成しました');
     }
 
     public abstract function makeHTML(): string;

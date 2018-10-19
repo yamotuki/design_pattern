@@ -3,7 +3,7 @@
 require_once "factory/Factory.php";
 
 if ($argc !== 2) {
-    var_dump("Usage: php Main.php class_name_of_ConcreteFactory");
+    echo("Usage: php Main.php class_name_of_ConcreteFactory");
     return;
 }
 
