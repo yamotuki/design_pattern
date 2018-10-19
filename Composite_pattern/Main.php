@@ -3,6 +3,7 @@
 require_once "Entry.php";
 require_once "DirectoryEntry.php";
 require_once "FileEntry.php";
+require_once "FileTreatmentException.php";
 
 try {
     echo("making root entries ..." . "\n");
@@ -42,6 +43,6 @@ try {
 
     $rootDir->printList();
 
-} catch (Exception $e) {
+} catch (FileTreatmentException $e) {
     echo $e;
 }
