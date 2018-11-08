@@ -1,0 +1,7 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Visitor_pattern\\" : "Visitor_pattern/"
+        }
+    }
+}
