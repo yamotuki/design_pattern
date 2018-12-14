@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Visitor_pattern\\' => array($baseDir . '/Visitor_pattern'),
+    'Facade\\' => array($baseDir . '/Facade'),
 );

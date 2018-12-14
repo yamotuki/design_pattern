@@ -1,0 +1,3 @@
+t-suzuki@macloud.jp=Tomoya Suzuki
+k-arai@macloud.jp=Kazuhei Arai
+tomura@hyuki.com=Tomura
