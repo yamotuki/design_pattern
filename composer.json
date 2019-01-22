@@ -1,8 +1,9 @@
 {
-    "autoload": {
-        "psr-4": {
-            "Visitor_pattern\\" : "Visitor_pattern/",
-            "Facade\\": "Facade/"
-        }
+  "autoload": {
+    "psr-4": {
+      "Visitor_pattern\\": "Visitor_pattern/",
+      "Facade\\": "Facade/",
+      "Observer\\": "Observer/"
     }
+  }
 }

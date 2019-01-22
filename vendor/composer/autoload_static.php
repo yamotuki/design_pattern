@@ -11,6 +11,10 @@ class ComposerStaticInit8556d44f5723d6ab8cb52849be955dbf
         array (
             'Visitor_pattern\\' => 16,
         ),
+        'O' => 
+        array (
+            'Observer\\' => 9,
+        ),
         'F' => 
         array (
             'Facade\\' => 7,
@@ -21,6 +25,10 @@ class ComposerStaticInit8556d44f5723d6ab8cb52849be955dbf
         'Visitor_pattern\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Visitor_pattern',
+        ),
+        'Observer\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Observer',
         ),
         'Facade\\' => 
         array (
