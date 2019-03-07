@@ -11,6 +11,10 @@ class ComposerStaticInit8556d44f5723d6ab8cb52849be955dbf
         array (
             'Visitor_pattern\\' => 16,
         ),
+        'P' => 
+        array (
+            'Proxy_pattern\\' => 14,
+        ),
         'O' => 
         array (
             'Observer\\' => 9,
@@ -25,6 +29,10 @@ class ComposerStaticInit8556d44f5723d6ab8cb52849be955dbf
         'Visitor_pattern\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Visitor_pattern',
+        ),
+        'Proxy_pattern\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Proxy_pattern',
         ),
         'Observer\\' => 
         array (

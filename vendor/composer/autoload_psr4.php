@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Visitor_pattern\\' => array($baseDir . '/Visitor_pattern'),
+    'Proxy_pattern\\' => array($baseDir . '/Proxy_pattern'),
     'Observer\\' => array($baseDir . '/Observer'),
     'Facade\\' => array($baseDir . '/Facade'),
 );

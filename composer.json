@@ -3,7 +3,8 @@
     "psr-4": {
       "Visitor_pattern\\": "Visitor_pattern/",
       "Facade\\": "Facade/",
-      "Observer\\": "Observer/"
+      "Observer\\": "Observer/",
+      "Proxy_pattern\\": "Proxy_pattern/"
     }
   }
 }
